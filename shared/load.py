@@ -12,9 +12,9 @@ def load_llm(
     tokenizer = AutoTokenizer.from_pretrained(name_model, padding_side="left")
     match model.config.model_type:
         case "llama":
-            # authors generate answers one by one, but i generate them in batch, which needs pad token.
-            # llama has no pad token, so eos token is usually used instead.
-            # so use separate one not to be confused with eos.
+            # 저자는 answer를 하나씩 생성했지만, 여기서는 batch로 한 번에 생성함.
+            # 이때 batch 생성에는 pad 토큰이 필요한데, llama는 pad 토큰이 없고 eos 토큰을 같이 씀.
+            # 따라서 eos 토큰과 pad 토큰을 구분하여 명시함.
             tokenizer.pad_token = "<|finetune_right_pad_id|>"
         case _:
             raise NotImplementedError(model.config.model_type)

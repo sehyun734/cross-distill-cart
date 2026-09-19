@@ -4,7 +4,7 @@ import torch
 from torch import Tensor
 from transformers import PreTrainedTokenizerBase
 
-# all texts are copied from authors.
+# 모든 텍스트는 저자의 github서 그대로 가져옴.
 
 
 def make_txt_record(
@@ -30,7 +30,7 @@ def make_txt_ctx(
     patient: dict,
     txt_note: str,
 ) -> str:
-    # context template is from authors' hf dataset, not github.
+    # context 템플릿은 저자의 github 코드가 아닌 HF 데이터셋에 맞춤.
     return (
         f"Below is a section of {patient['name']}'s medical record (ID: {key_patient}). \n"
         f"They were born on {patient['birthday']} and have the following diagnosis: {patient['diagnosis']}.\n"
@@ -255,7 +255,7 @@ def make_id(
     kwargs_tpl = {}
     match type_model:
         case "llama":
-            # fix date in llama system header not to be affected by run date.
+            # llama system 헤더 날짜를 고정해서, 실행 날짜에 영향받지 않도록 함.
             kwargs_tpl["date_string"] = "26 Jul 2024"
         case _:
             raise NotImplementedError(type_model)
@@ -271,7 +271,6 @@ def make_id_inp(
     kwargs_tpl = {}
     match type_model:
         case "llama":
-            # fix date in llama system header not to be affected by run date.
             kwargs_tpl["date_string"] = "26 Jul 2024"
         case _:
             raise NotImplementedError(type_model)

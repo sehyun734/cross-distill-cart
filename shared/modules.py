@@ -26,7 +26,7 @@ def generate(
     id_gen = id_out[:, id_inp.shape[1] :]
     id_eos = torch.tensor(model.generation_config.eos_token_id, device=model.device)
     is_eos = torch.isin(id_gen, id_eos)
-    # mask out tokens after first eos.
+    # 첫 eos 토큰 뒤의 토큰은 전부 마스킹함.
     mask_gen = ((is_eos.cumsum(dim=1) - is_eos.long()) == 0).long()
     return id_gen, mask_gen
 

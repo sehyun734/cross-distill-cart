@@ -16,27 +16,28 @@ from shared.utils import print_args
 class Args:
     name_dataset: str
     name_model: str = "meta-llama/Llama-3.2-3B-Instruct"
-    n_batch: int = 10  # authors use 32
+    n_batch: int = 10  # 저자는 32
     i_start: int = 0
-    i_end: int = 1000  # authors use 2048
+    i_end: int = 1000  # 저자는 2048
     n_save: int = 25
     n_tok_que: int = 512
     n_tok_ans: int = 1024
     temp_que: float = 0.6
     temp_ans: float = 0.0
     p_cot: float = 0.2
-    seed: int = 42  # authors use 82
+    seed: int = 42  # 저자는 82
 
 
 def main() -> None:
-    # kv cache is the context of the corpus that the model understands.
-    # training it with simple next token prediction only teaches it to copy the corpus, which is memorizing, not understanding.
-    # so make convos (question + answer) written by model that sees context, and train kv cache to act as the context,
-    # so model answers various questions well without seeing the corpus.
-    # 1. pick random context and seed instructions. (same as authors)
-    # 2. generate questions from context and seed instructions.
-    # 3. generate answers from context and questions, sometimes adding cot instruction.
-    # 4. save context, questions, cot instructions and answers as rows.
+    # kv cache는 모델이 이해한 corpus의 문맥. cartridge의 목표는 corpus를 입력으로 넣지 않고
+    # 학습된 작은 kv cache만으로 corpus에 대한 다양한 질문에 답할 수 있도록 하는 것.
+    # 이때 다음 토큰 예측으로만 학습하면 corpus를 그대로 써 내려가는 법만 배움. 이는 암기일 뿐, 이해가 아님.
+    # 따라서 corpus 일부를 본 모델이 만든 대화(question + answer)로 데이터를 만들고,
+    # 학습 때는 corpus 대신 kv cache를 보고 같은 답변을 하도록 학습.
+    # 1. context와 seed instruction을 랜덤으로 고름. (저자와 동일)
+    # 2. context와 seed instruction으로 question을 생성.
+    # 3. context와 question으로 answer를 생성. 이때 가끔 cot instruction을 추가.
+    # 4. context, question, cot instruction, answer를 저장.
     args = parse(Args)
     print_args(args)
     model, tokenizer = load_llm(args.name_model)
@@ -50,7 +51,7 @@ def main() -> None:
     )  # fmt: skip
     for i_sample in range(args.i_start, args.i_end):
         t_start = time.time()
-        # seed per sample so ranges can run in parallel.
+        # sample마다 seed를 따로 걸어서 구간별로 병렬로 돌려도 결과가 같도록 함.
         set_seed(args.seed + i_sample)
         txt_ctx = random.choice(random.choice(txts_ctx))
         msg_sys = make_msg_sys(make_txt_sys(txt_ctx))
@@ -67,7 +68,6 @@ def main() -> None:
         txts_cot = []
         msgs_inp_ans = []
         for i_batch in range(args.n_batch):
-            # sometimes add short cot instruction to question before generating answer.
             txt_cot = None
             txt_que_cot = txts_que[i_batch]
             if random.random() < args.p_cot:
@@ -82,7 +82,7 @@ def main() -> None:
         for i_batch in range(args.n_batch):
             is_pad = mask_gen_ans[i_batch] == 0
             id_ans = id_gen_ans[i_batch, ~is_pad]
-            # keep eos token to distinguish finished answer from truncated one for context distillation.
+            # 끝까지 생성된 answer와 토큰 상한선에 의해 중간서 잘린 answer를 구분하기 위해 eos 토큰을 남김.
             txt_ans = tokenizer.decode(id_ans, skip_special_tokens=False)
             txts_ans.append(txt_ans)
         for i_batch in range(args.n_batch):
