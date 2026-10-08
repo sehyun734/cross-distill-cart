@@ -1,0 +1,44 @@
+longhealth pending 2
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:19<00:19, 19.73s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:19<00:00,  9.87s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:00<00:43,  5.85it/s]
+Loading weights:   7%|▋         | 18/254 [00:00<00:02, 79.46it/s]
+Loading weights:  14%|█▍        | 36/254 [00:00<00:01, 118.38it/s]
+Loading weights:  21%|██▏       | 54/254 [00:00<00:01, 137.68it/s]
+Loading weights:  28%|██▊       | 72/254 [00:00<00:01, 149.92it/s]
+Loading weights:  35%|███▌      | 90/254 [00:00<00:01, 158.20it/s]
+Loading weights:  43%|████▎     | 108/254 [00:00<00:00, 163.45it/s]
+Loading weights:  49%|████▉     | 125/254 [00:00<00:00, 163.47it/s]
+Loading weights:  56%|█████▋    | 143/254 [00:00<00:00, 166.31it/s]
+Loading weights:  64%|██████▍   | 162/254 [00:01<00:00, 172.00it/s]
+Loading weights:  71%|███████   | 180/254 [00:01<00:00, 172.94it/s]
+Loading weights:  78%|███████▊  | 198/254 [00:01<00:00, 172.74it/s]
+Loading weights:  85%|████████▌ | 216/254 [00:01<00:00, 174.42it/s]
+Loading weights:  92%|█████████▏| 234/254 [00:01<00:00, 174.62it/s]
+Loading weights:  99%|█████████▉| 252/254 [00:01<00:00, 173.89it/s]
+Loading weights: 100%|██████████| 254/254 [00:01<00:00, 157.11it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+batch 1/7 accuracy 31.25% time 2m05s
+batch 2/7 accuracy 28.12% time 2m07s
+batch 3/7 accuracy 29.17% time 2m01s
+batch 4/7 accuracy 34.38% time 2m02s
+batch 5/7 accuracy 33.12% time 2m04s
+batch 6/7 accuracy 31.25% time 2m03s
+batch 7/7 accuracy 31.50% time 0m42s
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0 accuracy 31.50%
+saved longhealth/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0/seed=2.json
+batch 1/7 accuracy 28.12% time 2m02s
+batch 2/7 accuracy 35.94% time 2m07s
+batch 3/7 accuracy 33.33% time 2m01s
+batch 4/7 accuracy 32.81% time 2m02s
+batch 5/7 accuracy 33.75% time 2m04s
+batch 6/7 accuracy 34.38% time 2m02s
+batch 7/7 accuracy 34.00% time 0m41s
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0 accuracy 34.00%
+saved longhealth/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0/seed=2.json

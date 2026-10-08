@@ -1,0 +1,999 @@
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:20<00:20, 20.92s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:20<00:00, 10.46s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:00<00:53,  4.75it/s]
+Loading weights:   9%|▊         | 22/254 [00:00<00:02, 86.98it/s]
+Loading weights:  16%|█▌        | 40/254 [00:00<00:01, 119.30it/s]
+Loading weights:  23%|██▎       | 58/254 [00:00<00:01, 138.67it/s]
+Loading weights:  30%|██▉       | 76/254 [00:00<00:01, 150.70it/s]
+Loading weights:  37%|███▋      | 94/254 [00:00<00:01, 158.83it/s]
+Loading weights:  44%|████▍     | 112/254 [00:00<00:00, 164.42it/s]
+Loading weights:  51%|█████     | 130/254 [00:00<00:00, 167.93it/s]
+Loading weights:  58%|█████▊    | 148/254 [00:01<00:00, 169.96it/s]
+Loading weights:  65%|██████▌   | 166/254 [00:01<00:00, 171.38it/s]
+Loading weights:  72%|███████▏  | 184/254 [00:01<00:00, 172.91it/s]
+Loading weights:  80%|███████▉  | 202/254 [00:01<00:00, 174.10it/s]
+Loading weights:  87%|████████▋ | 220/254 [00:01<00:00, 174.75it/s]
+Loading weights:  94%|█████████▎| 238/254 [00:01<00:00, 175.09it/s]
+Loading weights: 100%|██████████| 254/254 [00:01<00:00, 156.79it/s]
+
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 145329.17 examples/s]
+
+Generating train split:   0%|          | 0/36718 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 36718/36718 [00:00<00:00, 815759.68 examples/s]
+
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 584918.89 examples/s]
+[W1007 08:13:33.053356258 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 1407188992 bytes (free: 1310130176, total: 42405855232).
+[W1007 08:13:38.037062724 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 1591738368 bytes (free: 949420032, total: 42405855232).
+[W1007 08:14:10.722767308 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 1858076672 bytes (free: 1593245696, total: 42405855232).
+epoch 1/2 batch 16/512 loss 1.0742 time 1m15s memory 29.3GB
+epoch 1/2 batch 32/512 loss 0.9835 time 1m10s memory 29.0GB
+epoch 1/2 batch 48/512 loss 0.9472 time 1m17s memory 29.2GB
+[W1007 08:17:57.567996643 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 1962934272 bytes (free: 630652928, total: 42405855232).
+epoch 1/2 batch 64/512 loss 0.8615 time 1m11s memory 29.6GB
+epoch 1/2 batch 80/512 loss 0.8063 time 1m10s memory 29.0GB
+epoch 1/2 batch 96/512 loss 0.7732 time 1m13s memory 29.1GB
+epoch 1/2 batch 112/512 loss 0.7433 time 1m11s memory 29.5GB
+epoch 1/2 batch 128/512 loss 0.6919 time 1m13s memory 29.2GB
+epoch 1/2 batch 144/512 loss 0.6911 time 1m12s memory 29.3GB
+epoch 1/2 batch 160/512 loss 0.6656 time 1m11s memory 29.5GB
+epoch 1/2 batch 176/512 loss 0.6226 time 1m13s memory 29.1GB
+epoch 1/2 batch 192/512 loss 0.6213 time 1m11s memory 29.4GB
+epoch 1/2 batch 208/512 loss 0.5884 time 1m12s memory 28.8GB
+epoch 1/2 batch 224/512 loss 0.5888 time 1m13s memory 28.6GB
+epoch 1/2 batch 240/512 loss 0.5995 time 1m10s memory 28.7GB
+epoch 1/2 batch 256/512 loss 0.5902 time 1m14s memory 29.4GB
+[W1007 08:33:13.916456627 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2017460224 bytes (free: 240582656, total: 42405855232).
+epoch 1/2 batch 272/512 loss 0.5752 time 1m15s memory 29.8GB
+epoch 1/2 batch 288/512 loss 0.5645 time 1m10s memory 29.1GB
+epoch 1/2 batch 304/512 loss 0.5511 time 1m13s memory 29.8GB
+epoch 1/2 batch 320/512 loss 0.5749 time 1m09s memory 28.9GB
+epoch 1/2 batch 336/512 loss 0.5373 time 1m13s memory 28.8GB
+epoch 1/2 batch 352/512 loss 0.5463 time 1m13s memory 29.5GB
+epoch 1/2 batch 368/512 loss 0.5422 time 1m13s memory 29.1GB
+[W1007 08:41:19.357480259 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2095054848 bytes (free: 64421888, total: 42405855232).
+epoch 1/2 batch 384/512 loss 0.5550 time 1m11s memory 29.9GB
+epoch 1/2 batch 400/512 loss 0.5318 time 1m14s memory 29.0GB
+epoch 1/2 batch 416/512 loss 0.5292 time 1m13s memory 29.6GB
+epoch 1/2 batch 432/512 loss 0.5306 time 1m13s memory 29.5GB
+epoch 1/2 batch 448/512 loss 0.5317 time 1m10s memory 29.1GB
+epoch 1/2 batch 464/512 loss 0.5242 time 1m12s memory 28.9GB
+epoch 1/2 batch 480/512 loss 0.5220 time 1m12s memory 29.1GB
+epoch 1/2 batch 496/512 loss 0.5094 time 1m12s memory 29.2GB
+epoch 1/2 batch 512/512 loss 0.5085 time 1m13s memory 29.6GB
+epoch 2/2 batch 16/512 loss 0.4718 time 1m12s memory 29.5GB
+epoch 2/2 batch 32/512 loss 0.4669 time 1m13s memory 28.9GB
+epoch 2/2 batch 48/512 loss 0.4827 time 1m08s memory 29.4GB
+epoch 2/2 batch 64/512 loss 0.4660 time 1m12s memory 28.8GB
+epoch 2/2 batch 80/512 loss 0.4776 time 1m11s memory 29.5GB
+epoch 2/2 batch 96/512 loss 0.4638 time 1m13s memory 29.7GB
+epoch 2/2 batch 112/512 loss 0.4540 time 1m12s memory 29.3GB
+[W1007 09:01:05.466918122 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2101346304 bytes (free: 56033280, total: 42405855232).
+epoch 2/2 batch 128/512 loss 0.4567 time 1m12s memory 30.5GB
+epoch 2/2 batch 144/512 loss 0.4581 time 1m12s memory 29.0GB
+epoch 2/2 batch 160/512 loss 0.4708 time 1m15s memory 30.4GB
+epoch 2/2 batch 176/512 loss 0.4706 time 1m11s memory 29.1GB
+epoch 2/2 batch 192/512 loss 0.4611 time 1m12s memory 28.8GB
+epoch 2/2 batch 208/512 loss 0.4409 time 1m14s memory 30.5GB
+epoch 2/2 batch 224/512 loss 0.4673 time 1m12s memory 28.7GB
+epoch 2/2 batch 240/512 loss 0.4657 time 1m11s memory 28.7GB
+epoch 2/2 batch 256/512 loss 0.4627 time 1m14s memory 29.0GB
+epoch 2/2 batch 272/512 loss 0.4772 time 1m11s memory 29.0GB
+epoch 2/2 batch 288/512 loss 0.4545 time 1m12s memory 29.0GB
+epoch 2/2 batch 304/512 loss 0.4516 time 1m12s memory 29.6GB
+epoch 2/2 batch 320/512 loss 0.4569 time 1m11s memory 28.9GB
+epoch 2/2 batch 336/512 loss 0.4550 time 1m13s memory 29.7GB
+epoch 2/2 batch 352/512 loss 0.4728 time 1m11s memory 28.9GB
+epoch 2/2 batch 368/512 loss 0.4587 time 1m11s memory 29.2GB
+epoch 2/2 batch 384/512 loss 0.4507 time 1m11s memory 30.0GB
+epoch 2/2 batch 400/512 loss 0.4512 time 1m12s memory 29.1GB
+epoch 2/2 batch 416/512 loss 0.4684 time 1m12s memory 29.9GB
+epoch 2/2 batch 432/512 loss 0.4590 time 1m13s memory 28.6GB
+epoch 2/2 batch 448/512 loss 0.4415 time 1m15s memory 29.2GB
+epoch 2/2 batch 464/512 loss 0.4504 time 1m13s memory 29.6GB
+epoch 2/2 batch 480/512 loss 0.4536 time 1m12s memory 29.9GB
+epoch 2/2 batch 496/512 loss 0.4459 time 1m11s memory 30.0GB
+epoch 2/2 batch 512/512 loss 0.4518 time 1m10s memory 28.7GB
+
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+Processing Files (0 / 1)      :   0%|          |  554kB /  470MB, 52.2kB/s  
+
+New Data Upload               :   1%|          |  554kB / 67.1MB, 52.2kB/s  [A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+
+
+                              :   0%|          |  554kB /  470MB            [A[A
+
+
+                              :   0%|          | 1.11MB /  470MB            [A[A
+Processing Files (0 / 1)      :   0%|          | 1.11MB /  470MB,  101kB/s  
+
+New Data Upload               :   1%|          | 1.11MB /  134MB,  101kB/s  [A
+
+
+                              :   0%|          | 1.11MB /  470MB            [A[A
+
+
+                              :   0%|          | 2.22MB /  470MB            [A[A
+Processing Files (0 / 1)      :   0%|          | 2.22MB /  470MB,  201kB/s  
+
+New Data Upload               :   1%|          | 2.22MB /  201MB,  201kB/s  [A
+
+
+                              :   1%|          | 2.77MB /  470MB            [A[A
+Processing Files (0 / 1)      :   1%|          | 2.77MB /  470MB,  250kB/s  
+
+New Data Upload               :   1%|▏         | 2.77MB /  201MB,  250kB/s  [A
+
+
+                              :   1%|          | 2.77MB /  470MB            [A[A
+
+
+                              :   1%|          | 5.54MB /  470MB            [A[A
+Processing Files (0 / 1)      :   1%|          | 5.54MB /  470MB,  500kB/s  
+
+New Data Upload               :   3%|▎         | 5.54MB /  201MB,  500kB/s  [A
+
+
+                              :   1%|          | 5.54MB /  470MB            [A[A
+
+
+                              :   1%|          | 5.54MB /  470MB            [A[A
+
+
+                              :   1%|          | 5.54MB /  470MB            [A[A
+
+
+                              :   2%|▏         | 7.20MB /  470MB            [A[A
+Processing Files (0 / 1)      :   2%|▏         | 7.20MB /  470MB,  633kB/s  
+
+New Data Upload               :   4%|▎         | 7.20MB /  201MB,  633kB/s  [A
+
+
+                              :   2%|▏         | 7.75MB /  470MB            [A[A
+Processing Files (0 / 1)      :   2%|▏         | 7.75MB /  470MB,  678kB/s  
+
+New Data Upload               :   4%|▍         | 7.75MB /  201MB,  678kB/s  [A
+
+
+                              :   2%|▏         | 10.5MB /  470MB            [A[A
+Processing Files (0 / 1)      :   2%|▏         | 10.5MB /  470MB,  922kB/s  
+
+New Data Upload               :   5%|▌         | 10.5MB /  201MB,  922kB/s  [A
+
+
+                              :   2%|▏         | 11.6MB /  470MB            [A[A
+Processing Files (0 / 1)      :   2%|▏         | 11.6MB /  470MB, 1.01MB/s  
+
+New Data Upload               :   6%|▌         | 11.6MB /  201MB, 1.01MB/s  [A
+
+
+                              :   3%|▎         | 13.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :   3%|▎         | 13.3MB /  470MB, 1.15MB/s  
+
+New Data Upload               :   7%|▋         | 13.3MB /  201MB, 1.15MB/s  [A
+
+
+                              :   3%|▎         | 16.0MB /  470MB            [A[A
+Processing Files (0 / 1)      :   3%|▎         | 16.0MB /  470MB, 1.39MB/s  
+
+New Data Upload               :   8%|▊         | 16.0MB /  201MB, 1.39MB/s  [A
+
+
+                              :   3%|▎         | 16.0MB /  470MB            [A[A
+
+
+                              :   4%|▍         | 21.0MB /  470MB            [A[A
+Processing Files (0 / 1)      :   4%|▍         | 21.0MB /  470MB, 1.81MB/s  
+
+New Data Upload               :  10%|█         | 21.0MB /  201MB, 1.81MB/s  [A
+
+
+                              :   4%|▍         | 21.0MB /  470MB            [A[A
+
+
+                              :   5%|▌         | 24.4MB /  470MB            [A[A
+Processing Files (0 / 1)      :   5%|▌         | 24.4MB /  470MB, 2.08MB/s  
+
+New Data Upload               :  12%|█▏        | 24.4MB /  201MB, 2.08MB/s  [A
+
+
+                              :   6%|▌         | 26.0MB /  470MB            [A[A
+Processing Files (0 / 1)      :   6%|▌         | 26.0MB /  470MB, 2.21MB/s  
+
+New Data Upload               :  13%|█▎        | 26.0MB /  201MB, 2.21MB/s  [A
+
+
+                              :   6%|▌         | 29.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :   6%|▌         | 29.3MB /  470MB, 2.48MB/s  
+
+New Data Upload               :  15%|█▍        | 29.3MB /  201MB, 2.48MB/s  [A
+
+
+                              :   7%|▋         | 32.6MB /  470MB            [A[A
+Processing Files (0 / 1)      :   7%|▋         | 32.6MB /  470MB, 2.75MB/s  
+
+New Data Upload               :  16%|█▌        | 32.6MB /  201MB, 2.75MB/s  [A
+
+
+                              :   8%|▊         | 36.0MB /  470MB            [A[A
+Processing Files (0 / 1)      :   8%|▊         | 36.0MB /  470MB, 3.02MB/s  
+
+New Data Upload               :  18%|█▊        | 36.0MB /  201MB, 3.02MB/s  [A
+
+
+                              :   8%|▊         | 39.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :   8%|▊         | 39.3MB /  470MB, 3.29MB/s  
+
+New Data Upload               :  20%|█▉        | 39.3MB /  201MB, 3.29MB/s  [A
+
+
+                              :   9%|▊         | 40.9MB /  470MB            [A[A
+Processing Files (0 / 1)      :   9%|▊         | 40.9MB /  470MB, 3.41MB/s  
+
+New Data Upload               :  20%|██        | 40.9MB /  201MB, 3.41MB/s  [A
+
+
+                              :  10%|▉         | 45.9MB /  470MB            [A[A
+Processing Files (0 / 1)      :  10%|▉         | 45.9MB /  470MB, 3.81MB/s  
+
+New Data Upload               :  23%|██▎       | 45.9MB /  201MB, 3.81MB/s  [A
+
+
+                              :  10%|▉         | 45.9MB /  470MB            [A[A
+
+
+                              :  10%|█         | 49.2MB /  470MB            [A[A
+Processing Files (0 / 1)      :  10%|█         | 49.2MB /  470MB, 4.04MB/s  
+
+New Data Upload               :  24%|██▍       | 49.2MB /  201MB, 4.04MB/s  [A
+
+
+                              :  11%|█         | 52.5MB /  470MB            [A[A
+Processing Files (0 / 1)      :  11%|█         | 52.5MB /  470MB, 4.29MB/s  
+
+New Data Upload               :  26%|██▌       | 52.5MB /  201MB, 4.29MB/s  [A
+
+
+                              :  12%|█▏        | 55.9MB /  470MB            [A[A
+Processing Files (0 / 1)      :  12%|█▏        | 55.9MB /  470MB, 4.55MB/s  
+
+New Data Upload               :  28%|██▊       | 55.9MB /  201MB, 4.55MB/s  [A
+
+
+                              :  13%|█▎        | 59.2MB /  470MB            [A[A
+Processing Files (0 / 1)      :  13%|█▎        | 59.2MB /  470MB, 4.79MB/s  
+
+New Data Upload               :  29%|██▉       | 59.2MB /  201MB, 4.79MB/s  [A
+
+
+                              :  13%|█▎        | 62.5MB /  470MB            [A[A
+Processing Files (0 / 1)      :  13%|█▎        | 62.5MB /  470MB, 5.04MB/s  
+
+New Data Upload               :  31%|███       | 62.5MB /  201MB, 5.04MB/s  [A
+
+
+                              :  14%|█▍        | 65.8MB /  470MB            [A[A
+Processing Files (0 / 1)      :  14%|█▍        | 65.8MB /  470MB, 5.29MB/s  
+
+New Data Upload               :  33%|███▎      | 65.8MB /  201MB, 5.29MB/s  [A
+
+
+                              :  15%|█▍        | 69.1MB /  470MB            [A[A
+Processing Files (0 / 1)      :  15%|█▍        | 69.1MB /  470MB, 5.53MB/s  
+
+New Data Upload               :  34%|███▍      | 69.1MB /  201MB, 5.53MB/s  [A
+
+
+                              :  15%|█▌        | 70.8MB /  470MB            [A[A
+Processing Files (0 / 1)      :  15%|█▌        | 70.8MB /  470MB, 5.62MB/s  
+
+New Data Upload               :  35%|███▌      | 70.8MB /  201MB, 5.62MB/s  [A
+
+
+                              :  15%|█▌        | 72.4MB /  470MB            [A[A
+Processing Files (0 / 1)      :  15%|█▌        | 72.4MB /  470MB, 5.72MB/s  
+
+New Data Upload               :  36%|███▌      | 72.4MB /  201MB, 5.72MB/s  [A
+
+
+                              :  16%|█▌        | 75.7MB /  470MB            [A[A
+Processing Files (0 / 1)      :  16%|█▌        | 75.7MB /  470MB, 5.95MB/s  
+
+New Data Upload               :  38%|███▊      | 75.7MB /  201MB, 5.95MB/s  [A
+
+
+                              :  17%|█▋        | 79.1MB /  470MB            [A[A
+Processing Files (0 / 1)      :  17%|█▋        | 79.1MB /  470MB, 6.19MB/s  
+
+New Data Upload               :  39%|███▉      | 79.1MB /  201MB, 6.19MB/s  [A
+
+
+                              :  18%|█▊        | 82.4MB /  470MB            [A[A
+Processing Files (0 / 1)      :  18%|█▊        | 82.4MB /  470MB, 6.42MB/s  
+
+New Data Upload               :  41%|████      | 82.4MB /  201MB, 6.42MB/s  [A
+
+
+                              :  18%|█▊        | 85.7MB /  470MB            [A[A
+Processing Files (0 / 1)      :  18%|█▊        | 85.7MB /  470MB, 6.65MB/s  
+
+New Data Upload               :  43%|████▎     | 85.7MB /  201MB, 6.65MB/s  [A
+
+
+                              :  19%|█▉        | 89.0MB /  470MB            [A[A
+Processing Files (0 / 1)      :  19%|█▉        | 89.0MB /  470MB, 6.88MB/s  
+
+New Data Upload               :  44%|████▍     | 89.0MB /  201MB, 6.88MB/s  [A
+
+
+                              :  20%|█▉        | 92.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :  20%|█▉        | 92.3MB /  470MB, 7.10MB/s  
+
+New Data Upload               :  46%|████▌     | 92.3MB /  201MB, 7.10MB/s  [A
+
+
+                              :  20%|██        | 95.6MB /  470MB            [A[A
+Processing Files (0 / 1)      :  20%|██        | 95.6MB /  470MB, 7.32MB/s  
+
+New Data Upload               :  48%|████▊     | 95.6MB /  201MB, 7.32MB/s  [A
+
+
+                              :  20%|██        | 95.6MB /  470MB            [A[A
+
+
+                              :  22%|██▏       |  102MB /  470MB            [A[A
+Processing Files (0 / 1)      :  22%|██▏       |  102MB /  470MB, 7.72MB/s  
+
+New Data Upload               :  51%|█████     |  102MB /  201MB, 7.72MB/s  [A
+
+
+                              :  22%|██▏       |  102MB /  470MB            [A[A
+Processing Files (0 / 1)      :  22%|██▏       |  102MB /  470MB, 7.70MB/s  
+
+New Data Upload               :  51%|█████     |  102MB /  201MB, 7.70MB/s  [A
+
+
+                              :  22%|██▏       |  106MB /  470MB            [A[A
+Processing Files (0 / 1)      :  22%|██▏       |  106MB /  470MB, 7.91MB/s  
+
+New Data Upload               :  52%|█████▏    |  106MB /  201MB, 7.91MB/s  [A
+
+
+                              :  23%|██▎       |  109MB /  470MB            [A[A
+Processing Files (0 / 1)      :  23%|██▎       |  109MB /  470MB, 8.13MB/s  
+
+New Data Upload               :  54%|█████▍    |  109MB /  201MB, 8.13MB/s  [A
+
+
+                              :  24%|██▍       |  112MB /  470MB            [A[A
+Processing Files (0 / 1)      :  24%|██▍       |  112MB /  470MB, 8.34MB/s  
+
+New Data Upload               :  56%|█████▌    |  112MB /  201MB, 8.34MB/s  [A
+
+
+                              :  25%|██▍       |  116MB /  470MB            [A[A
+Processing Files (0 / 1)      :  25%|██▍       |  116MB /  470MB, 8.55MB/s  
+
+New Data Upload               :  57%|█████▋    |  116MB /  201MB, 8.55MB/s  [A
+
+
+                              :  25%|██▌       |  119MB /  470MB            [A[A
+Processing Files (0 / 1)      :  25%|██▌       |  119MB /  470MB, 8.75MB/s  
+
+New Data Upload               :  59%|█████▉    |  119MB /  201MB, 8.75MB/s  [A
+
+
+                              :  26%|██▌       |  120MB /  470MB            [A[A
+Processing Files (0 / 1)      :  26%|██▌       |  120MB /  470MB, 8.78MB/s  
+
+New Data Upload               :  60%|█████▉    |  120MB /  201MB, 8.78MB/s  [A
+
+
+                              :  26%|██▌       |  120MB /  470MB            [A[A
+
+
+                              :  26%|██▌       |  123MB /  470MB            [A[A
+Processing Files (0 / 1)      :  26%|██▌       |  123MB /  470MB, 8.91MB/s  
+
+New Data Upload               :  61%|██████▏   |  123MB /  201MB, 8.91MB/s  [A
+
+
+                              :  26%|██▌       |  123MB /  470MB            [A[A
+
+
+                              :  27%|██▋       |  127MB /  470MB            [A[A
+Processing Files (0 / 1)      :  27%|██▋       |  127MB /  470MB, 9.03MB/s  
+
+New Data Upload               :  63%|██████▎   |  127MB /  201MB, 9.03MB/s  [A
+
+
+                              :  27%|██▋       |  127MB /  470MB            [A[A
+
+
+                              :  28%|██▊       |  130MB /  470MB            [A[A
+Processing Files (0 / 1)      :  28%|██▊       |  130MB /  470MB, 9.16MB/s  
+
+New Data Upload               :  65%|██████▍   |  130MB /  201MB, 9.16MB/s  [A
+
+
+                              :  28%|██▊       |  130MB /  470MB            [A[A
+
+
+                              :  28%|██▊       |  132MB /  470MB            [A[A
+Processing Files (0 / 1)      :  28%|██▊       |  132MB /  470MB, 9.14MB/s  
+
+New Data Upload               :  65%|██████▌   |  132MB /  201MB, 9.14MB/s  [A
+
+
+                              :  29%|██▉       |  137MB /  470MB            [A[A
+Processing Files (0 / 1)      :  29%|██▉       |  137MB /  470MB, 9.52MB/s  
+
+New Data Upload               :  68%|██████▊   |  137MB /  201MB, 9.52MB/s  [A
+
+
+                              :  29%|██▉       |  137MB /  470MB            [A[A
+
+
+                              :  30%|██▉       |  140MB /  470MB            [A[A
+Processing Files (0 / 1)      :  30%|██▉       |  140MB /  470MB, 9.57MB/s  
+
+New Data Upload               :  69%|██████▉   |  140MB /  201MB, 9.57MB/s  [A
+
+
+                              :  30%|██▉       |  140MB /  470MB            [A[A
+
+
+                              :  30%|███       |  143MB /  470MB            [A[A
+Processing Files (0 / 1)      :  30%|███       |  143MB /  470MB, 9.69MB/s  
+
+New Data Upload               :  71%|███████   |  143MB /  201MB, 9.69MB/s  [A
+
+
+                              :  30%|███       |  143MB /  470MB            [A[A
+
+
+                              :  31%|███       |  146MB /  470MB            [A[A
+Processing Files (0 / 1)      :  31%|███       |  146MB /  470MB, 9.80MB/s  
+
+New Data Upload               :  73%|███████▎  |  146MB /  201MB, 9.80MB/s  [A
+
+
+                              :  31%|███       |  146MB /  470MB            [A[A
+
+
+                              :  31%|███       |  146MB /  470MB            [A[A
+
+
+                              :  32%|███▏      |  150MB /  470MB            [A[A
+Processing Files (0 / 1)      :  32%|███▏      |  150MB /  470MB, 9.83MB/s  
+
+New Data Upload               :  56%|█████▌    |  150MB /  268MB, 9.83MB/s  [A
+
+
+                              :  32%|███▏      |  150MB /  470MB            [A[A
+Processing Files (0 / 1)      :  32%|███▏      |  150MB /  470MB, 9.75MB/s  
+
+New Data Upload               :  56%|█████▌    |  150MB /  268MB, 9.75MB/s  [A
+
+
+                              :  33%|███▎      |  153MB /  470MB            [A[A
+Processing Files (0 / 1)      :  33%|███▎      |  153MB /  470MB, 9.99MB/s  
+
+New Data Upload               :  57%|█████▋    |  153MB /  268MB, 9.99MB/s  [A
+
+
+                              :  33%|███▎      |  153MB /  470MB            [A[A
+
+
+                              :  33%|███▎      |  157MB /  470MB            [A[A
+Processing Files (0 / 1)      :  33%|███▎      |  157MB /  470MB, 10.1MB/s  
+
+New Data Upload               :  47%|████▋     |  157MB /  335MB, 10.1MB/s  [A
+
+
+                              :  33%|███▎      |  157MB /  470MB            [A[A
+
+
+                              :  34%|███▍      |  160MB /  470MB            [A[A
+Processing Files (0 / 1)      :  34%|███▍      |  160MB /  470MB, 10.2MB/s  
+
+New Data Upload               :  40%|███▉      |  160MB /  402MB, 10.2MB/s  [A
+
+
+                              :  34%|███▍      |  161MB /  470MB            [A[A
+Processing Files (0 / 1)      :  34%|███▍      |  161MB /  470MB, 10.2MB/s  
+
+New Data Upload               :  40%|███▉      |  161MB /  402MB, 10.2MB/s  [A
+
+
+                              :  35%|███▌      |  166MB /  470MB            [A[A
+Processing Files (0 / 1)      :  35%|███▌      |  166MB /  470MB, 10.5MB/s  
+
+New Data Upload               :  35%|███▌      |  166MB /  469MB, 10.5MB/s  [A
+
+
+                              :  36%|███▌      |  168MB /  470MB            [A[A
+Processing Files (0 / 1)      :  36%|███▌      |  168MB /  470MB, 10.6MB/s  
+
+New Data Upload               :  36%|███▌      |  168MB /  469MB, 10.6MB/s  [A
+
+
+                              :  36%|███▌      |  170MB /  470MB            [A[A
+Processing Files (0 / 1)      :  36%|███▌      |  170MB /  470MB, 10.7MB/s  
+
+New Data Upload               :  36%|███▌      |  170MB /  470MB, 10.7MB/s  [A
+
+
+                              :  37%|███▋      |  175MB /  470MB            [A[A
+Processing Files (0 / 1)      :  37%|███▋      |  175MB /  470MB, 11.0MB/s  
+
+New Data Upload               :  37%|███▋      |  175MB /  470MB, 11.0MB/s  [A
+
+
+                              :  38%|███▊      |  178MB /  470MB            [A[A
+Processing Files (0 / 1)      :  38%|███▊      |  178MB /  470MB, 11.2MB/s  
+
+New Data Upload               :  38%|███▊      |  178MB /  470MB, 11.2MB/s  [A
+
+
+                              :  39%|███▉      |  183MB /  470MB            [A[A
+Processing Files (0 / 1)      :  39%|███▉      |  183MB /  470MB, 11.4MB/s  
+
+New Data Upload               :  39%|███▉      |  183MB /  470MB, 11.4MB/s  [A
+
+
+                              :  39%|███▉      |  184MB /  470MB            [A[A
+Processing Files (0 / 1)      :  39%|███▉      |  184MB /  470MB, 11.5MB/s  
+
+New Data Upload               :  39%|███▉      |  184MB /  470MB, 11.5MB/s  [A
+
+
+                              :  40%|████      |  190MB /  470MB            [A[A
+Processing Files (0 / 1)      :  40%|████      |  190MB /  470MB, 11.8MB/s  
+
+New Data Upload               :  40%|████      |  190MB /  470MB, 11.8MB/s  [A
+
+
+                              :  41%|████      |  192MB /  470MB            [A[A
+Processing Files (0 / 1)      :  41%|████      |  192MB /  470MB, 11.9MB/s  
+
+New Data Upload               :  41%|████      |  192MB /  470MB, 11.9MB/s  [A
+
+
+                              :  43%|████▎     |  201MB /  470MB            [A[A
+Processing Files (0 / 1)      :  43%|████▎     |  201MB /  470MB, 12.5MB/s  
+
+New Data Upload               :  43%|████▎     |  201MB /  470MB, 12.5MB/s  [A
+
+
+                              :  43%|████▎     |  202MB /  470MB            [A[A
+Processing Files (0 / 1)      :  43%|████▎     |  202MB /  470MB, 12.5MB/s  
+
+New Data Upload               :  43%|████▎     |  202MB /  470MB, 12.5MB/s  [A
+
+
+                              :  44%|████▍     |  209MB /  470MB            [A[A
+Processing Files (0 / 1)      :  44%|████▍     |  209MB /  470MB, 12.9MB/s  
+
+New Data Upload               :  44%|████▍     |  209MB /  470MB, 12.9MB/s  [A
+
+
+                              :  46%|████▌     |  214MB /  470MB            [A[A
+Processing Files (0 / 1)      :  46%|████▌     |  214MB /  470MB, 13.3MB/s  
+
+New Data Upload               :  46%|████▌     |  214MB /  470MB, 13.3MB/s  [A
+
+
+                              :  46%|████▋     |  218MB /  470MB            [A[A
+Processing Files (0 / 1)      :  46%|████▋     |  218MB /  470MB, 13.5MB/s  
+
+New Data Upload               :  46%|████▋     |  218MB /  470MB, 13.5MB/s  [A
+
+
+                              :  48%|████▊     |  224MB /  470MB            [A[A
+Processing Files (0 / 1)      :  48%|████▊     |  224MB /  470MB, 13.8MB/s  
+
+New Data Upload               :  48%|████▊     |  224MB /  470MB, 13.8MB/s  [A
+
+
+                              :  48%|████▊     |  226MB /  470MB            [A[A
+Processing Files (0 / 1)      :  48%|████▊     |  226MB /  470MB, 13.9MB/s  
+
+New Data Upload               :  48%|████▊     |  226MB /  470MB, 13.9MB/s  [A
+
+
+                              :  50%|████▉     |  234MB /  470MB            [A[A
+Processing Files (0 / 1)      :  50%|████▉     |  234MB /  470MB, 14.4MB/s  
+
+New Data Upload               :  50%|████▉     |  234MB /  470MB, 14.4MB/s  [A
+
+
+                              :  50%|█████     |  237MB /  470MB            [A[A
+Processing Files (0 / 1)      :  50%|█████     |  237MB /  470MB, 14.6MB/s  
+
+New Data Upload               :  50%|█████     |  237MB /  470MB, 14.6MB/s  [A
+
+
+                              :  53%|█████▎    |  249MB /  470MB            [A[A
+Processing Files (0 / 1)      :  53%|█████▎    |  249MB /  470MB, 15.4MB/s  
+
+New Data Upload               :  53%|█████▎    |  249MB /  470MB, 15.4MB/s  [A
+
+
+                              :  54%|█████▎    |  252MB /  470MB            [A[A
+Processing Files (0 / 1)      :  54%|█████▎    |  252MB /  470MB, 15.5MB/s  
+
+New Data Upload               :  54%|█████▎    |  252MB /  470MB, 15.5MB/s  [A
+
+
+                              :  55%|█████▌    |  260MB /  470MB            [A[A
+Processing Files (0 / 1)      :  55%|█████▌    |  260MB /  470MB, 16.0MB/s  
+
+New Data Upload               :  55%|█████▌    |  260MB /  470MB, 16.0MB/s  [A
+
+
+                              :  57%|█████▋    |  266MB /  470MB            [A[A
+Processing Files (0 / 1)      :  57%|█████▋    |  266MB /  470MB, 16.4MB/s  
+
+New Data Upload               :  57%|█████▋    |  266MB /  470MB, 16.4MB/s  [A
+
+
+                              :  58%|█████▊    |  271MB /  470MB            [A[A
+Processing Files (0 / 1)      :  58%|█████▊    |  271MB /  470MB, 16.7MB/s  
+
+New Data Upload               :  58%|█████▊    |  271MB /  470MB, 16.7MB/s  [A
+
+
+                              :  59%|█████▉    |  279MB /  470MB            [A[A
+Processing Files (0 / 1)      :  59%|█████▉    |  279MB /  470MB, 17.1MB/s  
+
+New Data Upload               :  59%|█████▉    |  279MB /  470MB, 17.1MB/s  [A
+
+
+                              :  60%|█████▉    |  281MB /  470MB            [A[A
+Processing Files (0 / 1)      :  60%|█████▉    |  281MB /  470MB, 17.2MB/s  
+
+New Data Upload               :  60%|█████▉    |  281MB /  470MB, 17.2MB/s  [A
+
+
+                              :  62%|██████▏   |  292MB /  470MB            [A[A
+Processing Files (0 / 1)      :  62%|██████▏   |  292MB /  470MB, 17.9MB/s  
+
+New Data Upload               :  62%|██████▏   |  292MB /  470MB, 17.9MB/s  [A
+
+
+                              :  63%|██████▎   |  296MB /  470MB            [A[A
+Processing Files (0 / 1)      :  63%|██████▎   |  296MB /  470MB, 18.0MB/s  
+
+New Data Upload               :  63%|██████▎   |  296MB /  470MB, 18.0MB/s  [A
+
+
+                              :  65%|██████▌   |  306MB /  470MB            [A[A
+Processing Files (0 / 1)      :  65%|██████▌   |  306MB /  470MB, 18.7MB/s  
+
+New Data Upload               :  65%|██████▌   |  306MB /  470MB, 18.7MB/s  [A
+
+
+                              :  66%|██████▌   |  311MB /  470MB            [A[A
+Processing Files (0 / 1)      :  66%|██████▌   |  311MB /  470MB, 18.9MB/s  
+
+New Data Upload               :  66%|██████▌   |  311MB /  470MB, 18.9MB/s  [A
+
+
+                              :  67%|██████▋   |  316MB /  470MB            [A[A
+Processing Files (0 / 1)      :  67%|██████▋   |  316MB /  470MB, 19.2MB/s  
+
+New Data Upload               :  67%|██████▋   |  316MB /  470MB, 19.2MB/s  [A
+
+
+                              :  69%|██████▉   |  324MB /  470MB            [A[A
+Processing Files (0 / 1)      :  69%|██████▉   |  324MB /  470MB, 19.7MB/s  
+
+New Data Upload               :  69%|██████▉   |  324MB /  470MB, 19.7MB/s  [A
+
+
+                              :  69%|██████▉   |  324MB /  470MB            [A[A
+
+
+                              :  71%|███████   |  334MB /  470MB            [A[A
+Processing Files (0 / 1)      :  71%|███████   |  334MB /  470MB, 20.2MB/s  
+
+New Data Upload               :  71%|███████   |  334MB /  470MB, 20.2MB/s  [A
+
+
+                              :  72%|███████▏  |  337MB /  470MB            [A[A
+Processing Files (0 / 1)      :  72%|███████▏  |  337MB /  470MB, 20.3MB/s  
+
+New Data Upload               :  72%|███████▏  |  337MB /  470MB, 20.3MB/s  [A
+
+
+                              :  74%|███████▍  |  347MB /  470MB            [A[A
+Processing Files (0 / 1)      :  74%|███████▍  |  347MB /  470MB, 20.8MB/s  
+
+New Data Upload               :  74%|███████▍  |  347MB /  470MB, 20.8MB/s  [A
+
+
+                              :  74%|███████▍  |  350MB /  470MB            [A[A
+Processing Files (0 / 1)      :  74%|███████▍  |  350MB /  470MB, 20.9MB/s  
+
+New Data Upload               :  74%|███████▍  |  350MB /  470MB, 20.9MB/s  [A
+
+
+                              :  76%|███████▌  |  357MB /  470MB            [A[A
+Processing Files (0 / 1)      :  76%|███████▌  |  357MB /  470MB, 21.3MB/s  
+
+New Data Upload               :  76%|███████▌  |  357MB /  470MB, 21.3MB/s  [A
+
+
+                              :  77%|███████▋  |  363MB /  470MB            [A[A
+Processing Files (0 / 1)      :  77%|███████▋  |  363MB /  470MB, 21.6MB/s  
+
+New Data Upload               :  77%|███████▋  |  363MB /  470MB, 21.6MB/s  [A
+
+
+                              :  78%|███████▊  |  365MB /  470MB            [A[A
+Processing Files (0 / 1)      :  78%|███████▊  |  365MB /  470MB, 21.6MB/s  
+
+New Data Upload               :  78%|███████▊  |  365MB /  470MB, 21.6MB/s  [A
+
+
+                              :  80%|███████▉  |  375MB /  470MB            [A[A
+Processing Files (0 / 1)      :  80%|███████▉  |  375MB /  470MB, 22.2MB/s  
+
+New Data Upload               :  80%|███████▉  |  375MB /  470MB, 22.2MB/s  [A
+
+
+                              :  80%|████████  |  376MB /  470MB            [A[A
+Processing Files (0 / 1)      :  80%|████████  |  376MB /  470MB, 22.1MB/s  
+
+New Data Upload               :  80%|████████  |  376MB /  470MB, 22.1MB/s  [A
+
+
+                              :  82%|████████▏ |  386MB /  470MB            [A[A
+Processing Files (0 / 1)      :  82%|████████▏ |  386MB /  470MB, 22.7MB/s  
+
+New Data Upload               :  82%|████████▏ |  386MB /  470MB, 22.7MB/s  [A
+
+
+                              :  83%|████████▎ |  390MB /  470MB            [A[A
+Processing Files (0 / 1)      :  83%|████████▎ |  390MB /  470MB, 22.8MB/s  
+
+New Data Upload               :  83%|████████▎ |  390MB /  470MB, 22.8MB/s  [A
+
+
+                              :  84%|████████▍ |  396MB /  470MB            [A[A
+Processing Files (0 / 1)      :  84%|████████▍ |  396MB /  470MB, 23.2MB/s  
+
+New Data Upload               :  84%|████████▍ |  396MB /  470MB, 23.2MB/s  [A
+
+
+                              :  86%|████████▌ |  403MB /  470MB            [A[A
+Processing Files (0 / 1)      :  86%|████████▌ |  403MB /  470MB, 23.5MB/s  
+
+New Data Upload               :  86%|████████▌ |  403MB /  470MB, 23.5MB/s  [A
+
+
+                              :  86%|████████▌ |  405MB /  470MB            [A[A
+Processing Files (0 / 1)      :  86%|████████▌ |  405MB /  470MB, 23.4MB/s  
+
+New Data Upload               :  86%|████████▌ |  405MB /  470MB, 23.4MB/s  [A
+
+
+                              :  88%|████████▊ |  415MB /  470MB            [A[A
+Processing Files (0 / 1)      :  88%|████████▊ |  415MB /  470MB, 24.1MB/s  
+
+New Data Upload               :  88%|████████▊ |  415MB /  470MB, 24.1MB/s  [A
+
+
+                              :  88%|████████▊ |  415MB /  470MB            [A[A
+
+
+                              :  90%|████████▉ |  422MB /  470MB            [A[A
+Processing Files (0 / 1)      :  90%|████████▉ |  422MB /  470MB, 24.2MB/s  
+
+New Data Upload               :  90%|████████▉ |  422MB /  470MB, 24.2MB/s  [A
+
+
+                              :  91%|█████████ |  425MB /  470MB            [A[A
+Processing Files (0 / 1)      :  91%|█████████ |  425MB /  470MB, 24.3MB/s  
+
+New Data Upload               :  91%|█████████ |  425MB /  470MB, 24.3MB/s  [A
+
+
+                              :  92%|█████████▏|  430MB /  470MB            [A[A
+Processing Files (0 / 1)      :  92%|█████████▏|  430MB /  470MB, 24.5MB/s  
+
+New Data Upload               :  92%|█████████▏|  430MB /  470MB, 24.5MB/s  [A
+
+
+                              :  93%|█████████▎|  436MB /  470MB            [A[A
+Processing Files (0 / 1)      :  93%|█████████▎|  436MB /  470MB, 24.7MB/s  
+
+New Data Upload               :  93%|█████████▎|  436MB /  470MB, 24.7MB/s  [A
+
+
+                              :  93%|█████████▎|  439MB /  470MB            [A[A
+Processing Files (0 / 1)      :  93%|█████████▎|  439MB /  470MB, 24.8MB/s  
+
+New Data Upload               :  93%|█████████▎|  439MB /  470MB, 24.8MB/s  [A
+
+
+                              :  94%|█████████▍|  442MB /  470MB            [A[A
+Processing Files (0 / 1)      :  94%|█████████▍|  442MB /  470MB, 24.8MB/s  
+
+New Data Upload               :  94%|█████████▍|  442MB /  470MB, 24.8MB/s  [A
+
+
+                              :  94%|█████████▍|  442MB /  470MB            [A[A
+
+
+                              :  96%|█████████▌|  449MB /  470MB            [A[A
+Processing Files (0 / 1)      :  96%|█████████▌|  449MB /  470MB, 25.0MB/s  
+
+New Data Upload               :  96%|█████████▌|  449MB /  470MB, 25.0MB/s  [A
+
+
+                              :  96%|█████████▌|  449MB /  470MB            [A[A
+
+
+                              :  97%|█████████▋|  455MB /  470MB            [A[A
+Processing Files (0 / 1)      :  97%|█████████▋|  455MB /  470MB, 25.1MB/s  
+
+New Data Upload               :  97%|█████████▋|  455MB /  470MB, 25.1MB/s  [A
+
+
+                              :  97%|█████████▋|  455MB /  470MB            [A[A
+
+
+                              :  98%|█████████▊|  458MB /  470MB            [A[A
+Processing Files (0 / 1)      :  98%|█████████▊|  458MB /  470MB, 24.9MB/s  
+
+New Data Upload               :  98%|█████████▊|  458MB /  470MB, 24.9MB/s  [A
+
+
+                              :  98%|█████████▊|  459MB /  470MB            [A[A
+Processing Files (0 / 1)      :  98%|█████████▊|  459MB /  470MB, 24.8MB/s  
+
+New Data Upload               :  98%|█████████▊|  459MB /  470MB, 24.8MB/s  [A
+
+
+                              :  98%|█████████▊|  459MB /  470MB            [A[A
+
+
+                              :  98%|█████████▊|  462MB /  470MB            [A[A
+Processing Files (0 / 1)      :  98%|█████████▊|  462MB /  470MB, 24.7MB/s  
+
+New Data Upload               :  98%|█████████▊|  462MB /  470MB, 24.7MB/s  [A
+
+
+                              :  98%|█████████▊|  462MB /  470MB            [A[A
+
+
+                              :  99%|█████████▉|  466MB /  470MB            [A[A
+Processing Files (0 / 1)      :  99%|█████████▉|  466MB /  470MB, 24.5MB/s  
+
+New Data Upload               :  99%|█████████▉|  466MB /  470MB, 24.5MB/s  [A
+
+
+                              :  99%|█████████▉|  466MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  469MB /  470MB            [A[A
+Processing Files (0 / 1)      : 100%|█████████▉|  469MB /  470MB, 24.4MB/s  
+
+New Data Upload               : 100%|█████████▉|  469MB /  470MB, 24.4MB/s  [A
+
+
+                              : 100%|█████████▉|  469MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+Processing Files (0 / 1)      : 100%|█████████▉|  470MB /  470MB, 24.1MB/s  
+
+New Data Upload               : 100%|█████████▉|  470MB /  470MB, 24.1MB/s  [A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+Processing Files (1 / 1)      : 100%|██████████|  470MB /  470MB, 22.5MB/s  
+
+New Data Upload               : 100%|██████████|  470MB /  470MB, 22.5MB/s  [A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    : ██████████| 100%            [A[A[A
+Processing Files (1 / 1)      : 100%|██████████|  470MB /  470MB, 21.7MB/s  
+
+New Data Upload               : 100%|██████████|  470MB /  470MB, 21.7MB/s  
+
+Validating                    : ██████████| 100%            
+
+                              : 100%|██████████|  470MB /  470MB            
+saved cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0/cartridge.safetensors

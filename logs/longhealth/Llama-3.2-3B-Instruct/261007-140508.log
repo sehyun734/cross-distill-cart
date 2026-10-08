@@ -1,0 +1,23 @@
+longhealth pending 0
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:20<00:20, 20.75s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:20<00:00, 10.37s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:00<00:42,  6.01it/s]
+Loading weights:   7%|▋         | 19/254 [00:00<00:02, 85.98it/s]
+Loading weights:  14%|█▍        | 36/254 [00:00<00:01, 118.38it/s]
+Loading weights:  22%|██▏       | 55/254 [00:00<00:01, 143.28it/s]
+Loading weights:  28%|██▊       | 72/254 [00:00<00:01, 151.42it/s]
+Loading weights:  35%|███▌      | 90/254 [00:00<00:01, 159.14it/s]
+Loading weights:  43%|████▎     | 108/254 [00:00<00:00, 164.71it/s]
+Loading weights:  50%|████▉     | 126/254 [00:00<00:00, 168.25it/s]
+Loading weights:  57%|█████▋    | 144/254 [00:00<00:00, 169.83it/s]
+Loading weights:  64%|██████▍   | 162/254 [00:01<00:00, 171.39it/s]
+Loading weights:  71%|███████   | 180/254 [00:01<00:00, 172.37it/s]
+Loading weights:  78%|███████▊  | 198/254 [00:01<00:00, 173.05it/s]
+Loading weights:  85%|████████▌ | 216/254 [00:01<00:00, 172.73it/s]
+Loading weights:  93%|█████████▎| 235/254 [00:01<00:00, 177.28it/s]
+Loading weights: 100%|█████████▉| 253/254 [00:01<00:00, 176.85it/s]
+Loading weights: 100%|██████████| 254/254 [00:01<00:00, 158.62it/s]

@@ -1,29 +1,40 @@
 #!/bin/bash
 set -euo pipefail
+cd "$(dirname "$0")"
 
-name="$(basename "$1" .py)-$(date +%y%m%d-%H%M%S)"
-tar="/tmp/$name.tar.gz"
-argv=$(python3 -c "import sys; print(sys.argv[1:])" "$@")
-mkdir -p logs
+session="$(openssl rand -hex 3)"
+tar_path="/tmp/$session.tar.gz"
+argv="$(python3 -c "import sys; print(sys.argv[1:])" "$@")"
+packages="$(grep -E "^(accelerate|datasets|huggingface_hub|safetensors|simple-parsing|transformers|vllm)==" requirements.txt | python3 -c "import sys; print([line.strip() for line in sys.stdin])")"
 
-colab new -s "$name" --gpu G4
-trap 'rm -f "$tar"; colab stop -s "$name"' EXIT
-COPYFILE_DISABLE=1 tar -czf "$tar" --exclude .venv --exclude logs --exclude __pycache__ .
-colab upload -s "$name" "$tar" content/project.tar.gz
-colab install -s "$name" $(grep -E "^(transformers|datasets|accelerate|simple-parsing)==" requirements.txt)
+entry_name="$(basename "$1" .py)"
+model_name_pattern=" --model_name[= ]([^ ]+)"
+if [[ " $* " =~ $model_name_pattern ]]; then
+  model_name="${BASH_REMATCH[1]}"
+else
+  model_name="$(sed -nE 's/^ *model_name: str = "([^"]+)".*/\1/p' "$1")"
+fi
+log_path="logs/$entry_name/${model_name##*/}/$(date +%y%m%d-%H%M%S).log"
+mkdir -p "$(dirname "$log_path")"
 
-colab exec -s "$name" --timeout 86400 <<EOF 2>&1 | tee "logs/$name.log"
+trap 'rm -f "$tar_path"; colab stop -s "$session" || true' EXIT
+colab new -s "$session" --gpu A100
+COPYFILE_DISABLE=1 tar -czf "$tar_path" --exclude .venv --exclude __pycache__ --exclude logs .
+colab upload -s "$session" "$tar_path" content/project.tar.gz
+
+colab exec -s "$session" --timeout 86400 <<EOF 2>&1 | tee "$log_path"
 import subprocess
 import tarfile
 tarfile.open("project.tar.gz").extractall(filter="data")
+subprocess.run(["uv", "pip", "install", "--system", *$packages], check=True)
 proc = subprocess.Popen(
-    ["bash", "-c", 'set -a && . ./.env && set +a && TQDM_DISABLE=1 DATASETS_VERBOSITY=error PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True exec python -u "\$@"', "bash", *$argv],
+    ["bash", "-c", 'set -a && . ./.env && set +a && PYTHONPATH=. exec python -u "\$@"', "bash", *$argv],
     stdout=subprocess.PIPE,
     stderr=subprocess.STDOUT,
     text=True,
 )
 for line in proc.stdout:
     print(line, end="", flush=True)
-if proc.wait():
-    raise SystemExit(proc.returncode)
+if proc.wait() != 0:
+    print("fail", flush=True)
 EOF

@@ -1,0 +1,49 @@
+longhealth pending 2
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:20<00:20, 20.57s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:20<00:00, 10.29s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:00<00:43,  5.87it/s]
+Loading weights:   7%|▋         | 17/254 [00:00<00:03, 76.14it/s]
+Loading weights:  14%|█▍        | 36/254 [00:00<00:01, 118.76it/s]
+Loading weights:  21%|██▏       | 54/254 [00:00<00:01, 140.34it/s]
+Loading weights:  28%|██▊       | 72/254 [00:00<00:01, 152.37it/s]
+Loading weights:  35%|███▌      | 90/254 [00:00<00:01, 159.60it/s]
+Loading weights:  43%|████▎     | 108/254 [00:00<00:00, 163.94it/s]
+Loading weights:  49%|████▉     | 125/254 [00:00<00:00, 164.17it/s]
+Loading weights:  57%|█████▋    | 144/254 [00:00<00:00, 169.40it/s]
+Loading weights:  64%|██████▍   | 162/254 [00:01<00:00, 171.02it/s]
+Loading weights:  71%|███████   | 180/254 [00:01<00:00, 172.98it/s]
+Loading weights:  78%|███████▊  | 198/254 [00:01<00:00, 173.82it/s]
+Loading weights:  85%|████████▌ | 216/254 [00:01<00:00, 174.42it/s]
+Loading weights:  92%|█████████▏| 234/254 [00:01<00:00, 173.78it/s]
+Loading weights:  99%|█████████▉| 252/254 [00:01<00:00, 175.03it/s]
+Loading weights: 100%|██████████| 254/254 [00:01<00:00, 157.69it/s]
+question 20/200 accuracy 35.00% time 0m07s
+question 40/200 accuracy 47.50% time 0m04s
+question 60/200 accuracy 41.67% time 0m04s
+question 80/200 accuracy 40.00% time 0m04s
+question 100/200 accuracy 39.00% time 0m04s
+question 120/200 accuracy 38.33% time 0m04s
+question 140/200 accuracy 38.57% time 0m04s
+question 160/200 accuracy 38.75% time 0m04s
+question 180/200 accuracy 40.56% time 0m04s
+question 200/200 accuracy 40.50% time 0m04s
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0 accuracy 40.50%
+saved longhealth/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0/logprob.json
+question 20/200 accuracy 35.00% time 0m04s
+question 40/200 accuracy 42.50% time 0m04s
+question 60/200 accuracy 38.33% time 0m04s
+question 80/200 accuracy 43.75% time 0m04s
+question 100/200 accuracy 44.00% time 0m04s
+question 120/200 accuracy 41.67% time 0m04s
+question 140/200 accuracy 41.43% time 0m04s
+question 160/200 accuracy 40.62% time 0m04s
+question 180/200 accuracy 41.67% time 0m04s
+question 200/200 accuracy 41.50% time 0m04s
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0 accuracy 41.50%
+saved longhealth/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0/logprob.json

@@ -1,0 +1,462 @@
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:23<00:23, 23.94s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:23<00:00, 11.97s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:  12%|█▏        | 31/254 [00:00<00:00, 308.19it/s]
+Loading weights:  37%|███▋      | 94/254 [00:00<00:00, 491.16it/s]
+Loading weights:  62%|██████▏   | 157/254 [00:00<00:00, 553.46it/s]
+Loading weights:  87%|████████▋ | 221/254 [00:00<00:00, 582.64it/s]
+Loading weights: 100%|██████████| 254/254 [00:00<00:00, 562.38it/s]
+
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 150276.87 examples/s]
+
+Generating train split:   0%|          | 0/36718 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 36718/36718 [00:00<00:00, 1610120.90 examples/s]
+
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 1271616.11 examples/s]
+epoch 1/2 batch 16/1024 loss 1.0532 time 1m38s memory 28.3GB
+epoch 1/2 batch 32/1024 loss 0.9347 time 1m35s memory 28.6GB
+epoch 1/2 batch 48/1024 loss 0.8217 time 1m36s memory 29.3GB
+epoch 1/2 batch 64/1024 loss 0.7665 time 1m33s memory 29.0GB
+epoch 1/2 batch 80/1024 loss 0.7057 time 1m35s memory 28.9GB
+epoch 1/2 batch 96/1024 loss 0.6711 time 1m37s memory 29.4GB
+epoch 1/2 batch 112/1024 loss 0.6084 time 1m38s memory 29.3GB
+epoch 1/2 batch 128/1024 loss 0.5923 time 1m40s memory 29.5GB
+epoch 1/2 batch 144/1024 loss 0.5839 time 1m36s memory 29.7GB
+epoch 1/2 batch 160/1024 loss 0.5494 time 1m36s memory 28.7GB
+epoch 1/2 batch 176/1024 loss 0.5445 time 1m38s memory 28.7GB
+epoch 1/2 batch 192/1024 loss 0.5279 time 1m35s memory 29.6GB
+epoch 1/2 batch 208/1024 loss 0.5276 time 1m39s memory 28.8GB
+epoch 1/2 batch 224/1024 loss 0.5105 time 1m37s memory 28.3GB
+epoch 1/2 batch 240/1024 loss 0.5043 time 1m42s memory 29.2GB
+epoch 1/2 batch 256/1024 loss 0.4836 time 1m38s memory 28.3GB
+epoch 1/2 batch 272/1024 loss 0.4831 time 1m36s memory 29.0GB
+epoch 1/2 batch 288/1024 loss 0.4822 time 1m36s memory 29.2GB
+epoch 1/2 batch 304/1024 loss 0.4846 time 1m37s memory 29.6GB
+epoch 1/2 batch 320/1024 loss 0.4787 time 1m38s memory 30.2GB
+epoch 1/2 batch 336/1024 loss 0.4737 time 1m36s memory 28.7GB
+epoch 1/2 batch 352/1024 loss 0.4703 time 1m38s memory 28.9GB
+epoch 1/2 batch 368/1024 loss 0.4563 time 1m35s memory 28.6GB
+epoch 1/2 batch 384/1024 loss 0.4500 time 1m37s memory 30.1GB
+epoch 1/2 batch 400/1024 loss 0.4591 time 1m37s memory 28.7GB
+epoch 1/2 batch 416/1024 loss 0.4476 time 1m36s memory 29.9GB
+epoch 1/2 batch 432/1024 loss 0.4433 time 1m36s memory 29.0GB
+epoch 1/2 batch 448/1024 loss 0.4497 time 1m35s memory 28.3GB
+epoch 1/2 batch 464/1024 loss 0.4481 time 1m35s memory 29.7GB
+epoch 1/2 batch 480/1024 loss 0.4551 time 1m33s memory 29.6GB
+epoch 1/2 batch 496/1024 loss 0.4352 time 1m37s memory 29.0GB
+epoch 1/2 batch 512/1024 loss 0.4460 time 1m37s memory 28.6GB
+epoch 1/2 batch 528/1024 loss 0.4323 time 1m35s memory 28.4GB
+epoch 1/2 batch 544/1024 loss 0.4258 time 1m36s memory 29.1GB
+epoch 1/2 batch 560/1024 loss 0.4243 time 1m38s memory 29.4GB
+epoch 1/2 batch 576/1024 loss 0.4294 time 1m38s memory 29.6GB
+epoch 1/2 batch 592/1024 loss 0.4328 time 1m36s memory 28.9GB
+epoch 1/2 batch 608/1024 loss 0.4156 time 1m41s memory 29.0GB
+epoch 1/2 batch 624/1024 loss 0.4258 time 1m35s memory 29.0GB
+epoch 1/2 batch 640/1024 loss 0.4198 time 1m35s memory 28.8GB
+epoch 1/2 batch 656/1024 loss 0.4270 time 1m33s memory 29.9GB
+epoch 1/2 batch 672/1024 loss 0.4296 time 1m34s memory 29.0GB
+epoch 1/2 batch 688/1024 loss 0.4247 time 1m34s memory 29.0GB
+epoch 1/2 batch 704/1024 loss 0.4236 time 1m37s memory 28.4GB
+epoch 1/2 batch 720/1024 loss 0.4056 time 1m38s memory 29.3GB
+epoch 1/2 batch 736/1024 loss 0.4165 time 1m37s memory 29.1GB
+epoch 1/2 batch 752/1024 loss 0.4172 time 1m36s memory 28.3GB
+epoch 1/2 batch 768/1024 loss 0.4157 time 1m35s memory 29.2GB
+epoch 1/2 batch 784/1024 loss 0.4157 time 1m33s memory 29.3GB
+epoch 1/2 batch 800/1024 loss 0.4088 time 1m36s memory 28.8GB
+epoch 1/2 batch 816/1024 loss 0.4241 time 1m34s memory 29.6GB
+epoch 1/2 batch 832/1024 loss 0.4289 time 1m31s memory 28.9GB
+epoch 1/2 batch 848/1024 loss 0.4052 time 1m36s memory 28.7GB
+epoch 1/2 batch 864/1024 loss 0.4085 time 1m37s memory 29.2GB
+epoch 1/2 batch 880/1024 loss 0.4146 time 1m33s memory 29.1GB
+epoch 1/2 batch 896/1024 loss 0.4159 time 1m35s memory 29.3GB
+epoch 1/2 batch 912/1024 loss 0.4033 time 1m35s memory 28.4GB
+epoch 1/2 batch 928/1024 loss 0.4130 time 1m35s memory 28.9GB
+epoch 1/2 batch 944/1024 loss 0.4061 time 1m38s memory 28.8GB
+epoch 1/2 batch 960/1024 loss 0.4013 time 1m37s memory 29.2GB
+epoch 1/2 batch 976/1024 loss 0.3984 time 1m38s memory 30.3GB
+epoch 1/2 batch 992/1024 loss 0.3958 time 1m36s memory 28.8GB
+epoch 1/2 batch 1008/1024 loss 0.4000 time 1m37s memory 29.7GB
+epoch 1/2 batch 1024/1024 loss 0.3987 time 1m37s memory 29.4GB
+epoch 2/2 batch 16/1024 loss 0.3821 time 1m38s memory 28.5GB
+epoch 2/2 batch 32/1024 loss 0.3823 time 1m38s memory 28.9GB
+epoch 2/2 batch 48/1024 loss 0.3833 time 1m37s memory 28.8GB
+epoch 2/2 batch 64/1024 loss 0.3795 time 1m35s memory 29.5GB
+epoch 2/2 batch 80/1024 loss 0.3879 time 1m35s memory 29.1GB
+epoch 2/2 batch 96/1024 loss 0.3744 time 1m37s memory 29.6GB
+epoch 2/2 batch 112/1024 loss 0.3796 time 1m38s memory 29.2GB
+epoch 2/2 batch 128/1024 loss 0.3942 time 1m34s memory 28.6GB
+epoch 2/2 batch 144/1024 loss 0.3773 time 1m38s memory 28.8GB
+epoch 2/2 batch 160/1024 loss 0.3785 time 1m36s memory 28.8GB
+epoch 2/2 batch 176/1024 loss 0.3782 time 1m37s memory 28.3GB
+epoch 2/2 batch 192/1024 loss 0.3729 time 1m38s memory 29.9GB
+epoch 2/2 batch 208/1024 loss 0.3842 time 1m34s memory 28.7GB
+epoch 2/2 batch 224/1024 loss 0.3748 time 1m38s memory 29.0GB
+epoch 2/2 batch 240/1024 loss 0.3808 time 1m35s memory 29.3GB
+epoch 2/2 batch 256/1024 loss 0.3821 time 1m34s memory 28.7GB
+epoch 2/2 batch 272/1024 loss 0.3714 time 1m38s memory 28.5GB
+epoch 2/2 batch 288/1024 loss 0.3765 time 1m34s memory 29.5GB
+epoch 2/2 batch 304/1024 loss 0.3759 time 1m36s memory 29.5GB
+epoch 2/2 batch 320/1024 loss 0.3765 time 1m36s memory 30.0GB
+epoch 2/2 batch 336/1024 loss 0.3886 time 1m34s memory 29.1GB
+epoch 2/2 batch 352/1024 loss 0.3779 time 1m37s memory 28.6GB
+epoch 2/2 batch 368/1024 loss 0.3850 time 1m37s memory 28.6GB
+epoch 2/2 batch 384/1024 loss 0.3873 time 1m35s memory 28.8GB
+epoch 2/2 batch 400/1024 loss 0.3782 time 1m37s memory 29.6GB
+epoch 2/2 batch 416/1024 loss 0.3701 time 1m36s memory 28.8GB
+epoch 2/2 batch 432/1024 loss 0.3822 time 1m33s memory 29.3GB
+epoch 2/2 batch 448/1024 loss 0.3779 time 1m37s memory 28.5GB
+epoch 2/2 batch 464/1024 loss 0.3712 time 1m41s memory 29.0GB
+epoch 2/2 batch 480/1024 loss 0.3762 time 1m36s memory 28.5GB
+epoch 2/2 batch 496/1024 loss 0.3828 time 1m37s memory 28.8GB
+epoch 2/2 batch 512/1024 loss 0.3817 time 1m36s memory 30.0GB
+epoch 2/2 batch 528/1024 loss 0.3901 time 1m35s memory 28.4GB
+epoch 2/2 batch 544/1024 loss 0.3644 time 1m38s memory 29.0GB
+epoch 2/2 batch 560/1024 loss 0.3799 time 1m38s memory 28.9GB
+epoch 2/2 batch 576/1024 loss 0.3762 time 1m36s memory 28.8GB
+epoch 2/2 batch 592/1024 loss 0.3736 time 1m37s memory 29.2GB
+epoch 2/2 batch 608/1024 loss 0.3751 time 1m34s memory 28.4GB
+epoch 2/2 batch 624/1024 loss 0.3713 time 1m35s memory 29.1GB
+epoch 2/2 batch 640/1024 loss 0.3838 time 1m37s memory 28.4GB
+epoch 2/2 batch 656/1024 loss 0.3765 time 1m36s memory 28.9GB
+epoch 2/2 batch 672/1024 loss 0.3626 time 1m40s memory 28.8GB
+epoch 2/2 batch 688/1024 loss 0.3740 time 1m36s memory 28.5GB
+epoch 2/2 batch 704/1024 loss 0.3711 time 1m37s memory 29.4GB
+epoch 2/2 batch 720/1024 loss 0.3810 time 1m36s memory 28.5GB
+epoch 2/2 batch 736/1024 loss 0.3694 time 1m38s memory 29.3GB
+epoch 2/2 batch 752/1024 loss 0.3737 time 1m37s memory 28.6GB
+epoch 2/2 batch 768/1024 loss 0.3815 time 1m36s memory 29.1GB
+epoch 2/2 batch 784/1024 loss 0.3779 time 1m37s memory 28.6GB
+epoch 2/2 batch 800/1024 loss 0.3681 time 1m37s memory 29.2GB
+epoch 2/2 batch 816/1024 loss 0.3795 time 1m34s memory 28.8GB
+epoch 2/2 batch 832/1024 loss 0.3723 time 1m36s memory 29.1GB
+epoch 2/2 batch 848/1024 loss 0.3738 time 1m37s memory 29.9GB
+epoch 2/2 batch 864/1024 loss 0.3804 time 1m35s memory 29.3GB
+epoch 2/2 batch 880/1024 loss 0.3721 time 1m36s memory 29.9GB
+epoch 2/2 batch 896/1024 loss 0.3678 time 1m37s memory 29.0GB
+epoch 2/2 batch 912/1024 loss 0.3816 time 1m36s memory 29.9GB
+epoch 2/2 batch 928/1024 loss 0.3640 time 1m38s memory 29.0GB
+epoch 2/2 batch 944/1024 loss 0.3693 time 1m34s memory 29.4GB
+epoch 2/2 batch 960/1024 loss 0.3758 time 1m34s memory 29.5GB
+epoch 2/2 batch 976/1024 loss 0.3805 time 1m33s memory 28.8GB
+epoch 2/2 batch 992/1024 loss 0.3856 time 1m33s memory 29.6GB
+epoch 2/2 batch 1008/1024 loss 0.3787 time 1m35s memory 29.6GB
+epoch 2/2 batch 1024/1024 loss 0.3708 time 1m36s memory 29.0GB
+
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+
+                              :   2%|▏         | 8.32MB /  470MB            [A[A
+
+
+                              :   2%|▏         | 8.32MB /  470MB            [A[A
+Processing Files (0 / 1)      :   2%|▏         | 8.32MB /  470MB,  821kB/s  
+
+New Data Upload               :   6%|▌         | 8.32MB /  134MB,  821kB/s  [A
+
+
+                              :   4%|▍         | 21.1MB /  470MB            [A[A
+Processing Files (0 / 1)      :   4%|▍         | 21.1MB /  470MB, 2.07MB/s  
+
+New Data Upload               :  10%|█         | 21.1MB /  201MB, 2.07MB/s  [A
+
+
+                              :   7%|▋         | 34.4MB /  470MB            [A[A
+Processing Files (0 / 1)      :   7%|▋         | 34.4MB /  470MB, 3.35MB/s  
+
+New Data Upload               :  17%|█▋        | 34.4MB /  201MB, 3.35MB/s  [A
+
+
+                              :  10%|█         | 47.1MB /  470MB            [A[A
+Processing Files (0 / 1)      :  10%|█         | 47.1MB /  470MB, 4.57MB/s  
+
+New Data Upload               :  23%|██▎       | 47.1MB /  201MB, 4.57MB/s  [A
+
+
+                              :  13%|█▎        | 59.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :  13%|█▎        | 59.3MB /  470MB, 5.71MB/s  
+
+New Data Upload               :  29%|██▉       | 59.3MB /  201MB, 5.71MB/s  [A
+
+
+                              :  15%|█▌        | 71.0MB /  470MB            [A[A
+Processing Files (0 / 1)      :  15%|█▌        | 71.0MB /  470MB, 6.79MB/s  
+
+New Data Upload               :  35%|███▌      | 71.0MB /  201MB, 6.79MB/s  [A
+
+
+                              :  16%|█▌        | 74.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :  16%|█▌        | 74.3MB /  470MB, 7.05MB/s  
+
+New Data Upload               :  37%|███▋      | 74.3MB /  201MB, 7.05MB/s  [A
+
+
+                              :  17%|█▋        | 80.3MB /  470MB            [A[A
+Processing Files (0 / 1)      :  17%|█▋        | 80.3MB /  470MB, 7.57MB/s  
+
+New Data Upload               :  40%|███▉      | 80.3MB /  201MB, 7.57MB/s  [A
+
+
+                              :  19%|█▉        | 89.1MB /  470MB            [A[A
+Processing Files (0 / 1)      :  19%|█▉        | 89.1MB /  470MB, 8.34MB/s  
+
+New Data Upload               :  44%|████▍     | 89.1MB /  201MB, 8.34MB/s  [A
+
+
+                              :  22%|██▏       |  101MB /  470MB            [A[A
+Processing Files (0 / 1)      :  22%|██▏       |  101MB /  470MB, 9.43MB/s  
+
+New Data Upload               :  50%|█████     |  101MB /  201MB, 9.43MB/s  [A
+
+
+                              :  24%|██▍       |  114MB /  470MB            [A[A
+Processing Files (0 / 1)      :  24%|██▍       |  114MB /  470MB, 10.6MB/s  
+
+New Data Upload               :  57%|█████▋    |  114MB /  201MB, 10.6MB/s  [A
+
+
+                              :  27%|██▋       |  127MB /  470MB            [A[A
+Processing Files (0 / 1)      :  27%|██▋       |  127MB /  470MB, 11.7MB/s  
+
+New Data Upload               :  63%|██████▎   |  127MB /  201MB, 11.7MB/s  [A
+
+
+                              :  30%|███       |  141MB /  470MB            [A[A
+Processing Files (0 / 1)      :  30%|███       |  141MB /  470MB, 13.0MB/s  
+
+New Data Upload               :  53%|█████▎    |  141MB /  268MB, 13.0MB/s  [A
+
+
+                              :  32%|███▏      |  152MB /  470MB            [A[A
+Processing Files (0 / 1)      :  32%|███▏      |  152MB /  470MB, 13.8MB/s  
+
+New Data Upload               :  57%|█████▋    |  152MB /  268MB, 13.8MB/s  [A
+
+
+                              :  35%|███▌      |  165MB /  470MB            [A[A
+Processing Files (0 / 1)      :  35%|███▌      |  165MB /  470MB, 15.0MB/s  
+
+New Data Upload               :  49%|████▉     |  165MB /  335MB, 15.0MB/s  [A
+
+
+                              :  38%|███▊      |  179MB /  470MB            [A[A
+Processing Files (0 / 1)      :  38%|███▊      |  179MB /  470MB, 16.2MB/s  
+
+New Data Upload               :  53%|█████▎    |  179MB /  335MB, 16.2MB/s  [A
+
+
+                              :  41%|████      |  193MB /  470MB            [A[A
+Processing Files (0 / 1)      :  41%|████      |  193MB /  470MB, 17.3MB/s  
+
+New Data Upload               :  57%|█████▋    |  193MB /  335MB, 17.3MB/s  [A
+
+
+                              :  43%|████▎     |  204MB /  470MB            [A[A
+Processing Files (0 / 1)      :  43%|████▎     |  204MB /  470MB, 18.2MB/s  
+
+New Data Upload               :  61%|██████    |  204MB /  335MB, 18.2MB/s  [A
+
+
+                              :  46%|████▌     |  216MB /  470MB            [A[A
+Processing Files (0 / 1)      :  46%|████▌     |  216MB /  470MB, 19.2MB/s  
+
+New Data Upload               :  64%|██████▍   |  216MB /  335MB, 19.2MB/s  [A
+
+
+                              :  48%|████▊     |  227MB /  470MB            [A[A
+Processing Files (0 / 1)      :  48%|████▊     |  227MB /  470MB, 20.0MB/s  
+
+New Data Upload               :  68%|██████▊   |  227MB /  335MB, 20.0MB/s  [A
+
+
+                              :  52%|█████▏    |  243MB /  470MB            [A[A
+Processing Files (0 / 1)      :  52%|█████▏    |  243MB /  470MB, 21.3MB/s  
+
+New Data Upload               :  60%|██████    |  243MB /  402MB, 21.3MB/s  [A
+
+
+                              :  54%|█████▍    |  255MB /  470MB            [A[A
+Processing Files (0 / 1)      :  54%|█████▍    |  255MB /  470MB, 22.2MB/s  
+
+New Data Upload               :  54%|█████▍    |  255MB /  469MB, 22.2MB/s  [A
+
+
+                              :  57%|█████▋    |  267MB /  470MB            [A[A
+Processing Files (0 / 1)      :  57%|█████▋    |  267MB /  470MB, 23.2MB/s  
+
+New Data Upload               :  57%|█████▋    |  267MB /  469MB, 23.2MB/s  [A
+
+
+                              :  60%|█████▉    |  281MB /  470MB            [A[A
+Processing Files (0 / 1)      :  60%|█████▉    |  281MB /  470MB, 24.2MB/s  
+
+New Data Upload               :  60%|█████▉    |  281MB /  469MB, 24.2MB/s  [A
+
+
+                              :  63%|██████▎   |  294MB /  470MB            [A[A
+Processing Files (0 / 1)      :  63%|██████▎   |  294MB /  470MB, 25.2MB/s  
+
+New Data Upload               :  63%|██████▎   |  294MB /  470MB, 25.2MB/s  [A
+
+
+                              :  65%|██████▍   |  305MB /  470MB            [A[A
+Processing Files (0 / 1)      :  65%|██████▍   |  305MB /  470MB, 25.9MB/s  
+
+New Data Upload               :  65%|██████▍   |  305MB /  470MB, 25.9MB/s  [A
+
+
+                              :  67%|██████▋   |  316MB /  470MB            [A[A
+Processing Files (0 / 1)      :  67%|██████▋   |  316MB /  470MB, 26.7MB/s  
+
+New Data Upload               :  67%|██████▋   |  316MB /  470MB, 26.7MB/s  [A
+
+
+                              :  70%|██████▉   |  329MB /  470MB            [A[A
+Processing Files (0 / 1)      :  70%|██████▉   |  329MB /  470MB, 27.7MB/s  
+
+New Data Upload               :  70%|██████▉   |  329MB /  470MB, 27.7MB/s  [A
+
+
+                              :  73%|███████▎  |  341MB /  470MB            [A[A
+Processing Files (0 / 1)      :  73%|███████▎  |  341MB /  470MB, 28.6MB/s  
+
+New Data Upload               :  73%|███████▎  |  341MB /  470MB, 28.6MB/s  [A
+
+
+                              :  74%|███████▍  |  349MB /  470MB            [A[A
+Processing Files (0 / 1)      :  74%|███████▍  |  349MB /  470MB, 29.0MB/s  
+
+New Data Upload               :  74%|███████▍  |  349MB /  470MB, 29.0MB/s  [A
+
+
+                              :  76%|███████▌  |  358MB /  470MB            [A[A
+Processing Files (0 / 1)      :  76%|███████▌  |  358MB /  470MB, 29.6MB/s  
+
+New Data Upload               :  76%|███████▌  |  358MB /  470MB, 29.6MB/s  [A
+
+
+                              :  79%|███████▊  |  369MB /  470MB            [A[A
+Processing Files (0 / 1)      :  79%|███████▊  |  369MB /  470MB, 30.3MB/s  
+
+New Data Upload               :  79%|███████▊  |  369MB /  470MB, 30.3MB/s  [A
+
+
+                              :  82%|████████▏ |  383MB /  470MB            [A[A
+Processing Files (0 / 1)      :  82%|████████▏ |  383MB /  470MB, 31.3MB/s  
+
+New Data Upload               :  82%|████████▏ |  383MB /  470MB, 31.3MB/s  [A
+
+
+                              :  84%|████████▍ |  397MB /  470MB            [A[A
+Processing Files (0 / 1)      :  84%|████████▍ |  397MB /  470MB, 32.3MB/s  
+
+New Data Upload               :  84%|████████▍ |  397MB /  470MB, 32.3MB/s  [A
+
+
+                              :  87%|████████▋ |  407MB /  470MB            [A[A
+Processing Files (0 / 1)      :  87%|████████▋ |  407MB /  470MB, 32.9MB/s  
+
+New Data Upload               :  87%|████████▋ |  407MB /  470MB, 32.9MB/s  [A
+
+
+                              :  90%|████████▉ |  421MB /  470MB            [A[A
+Processing Files (0 / 1)      :  90%|████████▉ |  421MB /  470MB, 33.8MB/s  
+
+New Data Upload               :  90%|████████▉ |  421MB /  470MB, 33.8MB/s  [A
+
+
+                              :  92%|█████████▏|  434MB /  470MB            [A[A
+Processing Files (0 / 1)      :  92%|█████████▏|  434MB /  470MB, 34.8MB/s  
+
+New Data Upload               :  92%|█████████▏|  434MB /  470MB, 34.8MB/s  [A
+
+
+                              :  94%|█████████▍|  444MB /  470MB            [A[A
+Processing Files (0 / 1)      :  94%|█████████▍|  444MB /  470MB, 35.3MB/s  
+
+New Data Upload               :  94%|█████████▍|  444MB /  470MB, 35.3MB/s  [A
+
+
+                              :  97%|█████████▋|  455MB /  470MB            [A[A
+Processing Files (0 / 1)      :  97%|█████████▋|  455MB /  470MB, 36.0MB/s  
+
+New Data Upload               :  97%|█████████▋|  455MB /  470MB, 36.0MB/s  [A
+
+
+                              : 100%|█████████▉|  468MB /  470MB            [A[A
+Processing Files (0 / 1)      : 100%|█████████▉|  468MB /  470MB, 36.8MB/s  
+
+New Data Upload               : 100%|█████████▉|  468MB /  470MB, 36.8MB/s  [A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+Processing Files (0 / 1)      : 100%|█████████▉|  470MB /  470MB, 36.7MB/s  
+
+New Data Upload               : 100%|█████████▉|  470MB /  470MB, 36.7MB/s  [A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+
+
+                              : 100%|█████████▉|  470MB /  470MB            [A[A
+Processing Files (0 / 1)      : 100%|█████████▉|  470MB /  470MB, 35.1MB/s  
+
+New Data Upload               : 100%|█████████▉|  470MB /  470MB, 35.1MB/s  [A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+Processing Files (1 / 1)      : 100%|██████████|  470MB /  470MB, 34.8MB/s  
+
+New Data Upload               : 100%|██████████|  470MB /  470MB, 34.8MB/s  [A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    :           |   0%            [A[A[A
+
+
+                              : 100%|██████████|  470MB /  470MB            [A[A
+
+
+
+Validating                    : ██████████| 100%            [A[A[A
+Processing Files (1 / 1)      : 100%|██████████|  470MB /  470MB, 34.0MB/s  
+
+New Data Upload               : 100%|██████████|  470MB /  470MB, 34.0MB/s  
+
+Validating                    : ██████████| 100%            
+
+                              : 100%|██████████|  470MB /  470MB            
+saved cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=65536,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,batch_size=64,num_epochs=2,seed=0/cartridge.safetensors

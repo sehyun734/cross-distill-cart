@@ -1,0 +1,41 @@
+kl pending 6
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=32768,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0
+  cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:20<00:20, 20.81s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:20<00:00, 10.40s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:00<00:42,  6.00it/s]
+Loading weights:   7%|▋         | 18/254 [00:00<00:02, 80.97it/s]
+Loading weights:  14%|█▍        | 36/254 [00:00<00:01, 119.68it/s]
+Loading weights:  21%|██▏       | 54/254 [00:00<00:01, 140.17it/s]
+Loading weights:  28%|██▊       | 72/254 [00:00<00:01, 151.86it/s]
+Loading weights:  35%|███▌      | 89/254 [00:00<00:01, 156.59it/s]
+Loading weights:  43%|████▎     | 108/254 [00:00<00:00, 165.26it/s]
+Loading weights:  50%|████▉     | 126/254 [00:00<00:00, 167.37it/s]
+Loading weights:  57%|█████▋    | 144/254 [00:00<00:00, 170.13it/s]
+Loading weights:  64%|██████▍   | 162/254 [00:01<00:00, 171.68it/s]
+Loading weights:  71%|███████   | 180/254 [00:01<00:00, 172.66it/s]
+Loading weights:  78%|███████▊  | 198/254 [00:01<00:00, 173.34it/s]
+Loading weights:  85%|████████▌ | 216/254 [00:01<00:00, 173.38it/s]
+Loading weights:  92%|█████████▏| 234/254 [00:01<00:00, 174.08it/s]
+Loading weights:  99%|█████████▉| 252/254 [00:01<00:00, 174.48it/s]
+Loading weights: 100%|██████████| 254/254 [00:01<00:00, 158.01it/s]
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,seed=0 base_kl 1.0041 cartridge_kl 0.1910
+saved kl/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.2/cartridge_len=2048,learning_rate=0.02,seed=0/held_out,num_samples=1024.json
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0 base_kl 0.8849 cartridge_kl 0.1818
+saved kl/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0/held_out,num_samples=1024.json
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0 base_kl 0.8849 cartridge_kl 0.1850
+saved kl/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0/held_out,num_samples=1024.json
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=32768,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0 base_kl 0.8849 cartridge_kl 0.1500
+saved kl/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.1-8B-Instruct,num_samples=32768,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0/held_out,num_samples=1024.json
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0 base_kl 0.7855 cartridge_kl 0.1340
+saved kl/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,batch_size=32,num_epochs=2,seed=0/held_out,num_samples=1024.json
+cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0 base_kl 0.7855 cartridge_kl 0.1361
+saved kl/cartridge/Llama-3.2-3B-Instruct/teacher=Llama-3.2-3B-Instruct,num_samples=16384,cot_ratio=0.75/cartridge_len=2048,learning_rate=0.02,seed=0/held_out,num_samples=1024.json
